@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana, sans-serif;
+	color: #6F6A60;
+	font-size: 11px;
+	font-weight: normal;
+	background: #F5F6F8;
+}
+
+#wrapper {
+	position: absolute;
+	width: 100%;
+	top: 100px;
+	margin: 0 auto;
+	
+}
+
+.content {
+	margin: auto;
+	width: 60%;
+	border: 3px solid #73AD21;
+	padding: 10px;
+}
+
+.starmap {
+	width: 40%;
+	margin: 20px auto;
+}
+
+h1, h2, h3, h4, p, td, tr, form {font-family: Tahoma, Helvetica, Arial, sans-serif; }
+tr, td {font-size: 11px !important; font-weight: bold !important; }
+h1 {
+margin: 0px;
+padding: 0px;
+line-height: 24px;
+font-size: 24px;
+}
+
+img	{
+margin: 0px;
+padding: 0px;
+border: none;
+display: block;
+}
+
+a	{
+font-family: verdana, sans-serif;
+text-decoration: none;
+color: #747475;
+margin: 0px;
+padding: 0px;
+}
+
+h3	{
+font-size: 13px;
+margin: 0px;
+padding: 0px;
+}
+
+h4	{
+font-size: 12px;
+margin: 0px;
+padding: 0px;
+}
+
+h5	{
+font-size: 12px;
+color: white;
+}
+
+p	{
+font-family: arial, helvetica, sans-serif;
+color: #262626;
+}
+
+#formbox {
+	border-radius: 25px;
+	width: 650px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px #666 solid;
+	background-color: #fff;
+}
+
+input, textarea, .uneditable-input { width: 70px !important; }
+input#myObj  {width: 300px !important; }
+
+#findButton {
+	margin-left: 10px;
+	padding: 10px 15px 11px !important;
+	width: 200px !important;
+	font-size: 18px !important;
+	background-color: #06C;
+	font-weight: bold;
+	text-shadow: 1px 1px #57D6C7;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #57D6C7;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+
+#wrapper { width: 100%; display: block; margin: 0 auto; text-align: center; }
+.formbox { margin: 0 auto; }
+.info {font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11px; color: #666;}
+.dategrid tr, td {font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold;}
+
+input {width: 150px !important; height: 30px !important; font-weight: bold;}
+
+.progress { text-align: center; margin-bottom: 0px !important; background-image: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%) !important; border-radius: 0px !important;}
